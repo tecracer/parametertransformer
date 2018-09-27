@@ -1,0 +1,28 @@
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:eu-central-1:969937650859:stack/s2a-ops-rdscreatesnapshot/dab52f10-a456-11e8-9538-06df096cc94e",
+            "StackName": "s2a-ops-rdscreatesnapshot",
+            "Description": "Task configuration for action RDS Create Snapshot version 1.0 in stack \"s2a-ops-automator\". This stack will be automatically deleted with that stack.",
+            "Parameters": [
+                {
+                    "ParameterKey": "Timezone",
+                    "ParameterValue": "Europe/Berlin"
+                },
+                {
+                    "ParameterKey": "SelectMemory",
+                    "ParameterValue": "Medium"
+                }
+            ],
+            "CreationTime": "2018-08-20T08:55:57.883Z",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "CREATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Tags": [],
+            "EnableTerminationProtection": false
+        }
+    ]
+}
